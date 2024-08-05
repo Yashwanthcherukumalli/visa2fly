@@ -1,0 +1,19 @@
+<div class="d-flex justify-content-center align-items-center flex-column bg-light">
+    <h2 class="text-center mb-4">Newsletter</h2>
+    <p class="text-center">Watch our Courses</p>
+    <p class="text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+    
+    <div class="row justify-content-center d-flex justify-content-around align-items-center">
+      <form [formGroup]="newsletterForm" (ngSubmit)="onSubmit()">
+        <div class="input-group">
+          <div>
+            <input type="email" formControlName="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="input-group-append">
+            <button class="btn btn-successes" type="submit">Subscribe</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  

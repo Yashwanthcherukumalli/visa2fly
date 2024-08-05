@@ -1,0 +1,111 @@
+.bg-light {
+    background-color: #FDF3F1 !important;
+    height: 80vh;
+    width: 100%;
+}
+
+.text-success {
+    color: #96BB7C !important;
+}
+
+.btn-group .btn {
+    border-radius: 6px;
+}
+.btn-group .btn-successes{
+    background-color: #96BB7C !important;
+    color: white;
+}
+.btn-outline-success {
+    color: #96BB7C;
+    border-color: #96BB7C !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #96BB7C ;
+    color: white;
+}
+.img-img{
+    width: 70%;
+    height: 50%;
+}
+
+.bg-light {
+    background-color: #FDF3F1 !important;
+    height: 80vh;
+    width: 100%;
+    
+    @media (max-width: 992px) { // Medium screens (tablets)
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      
+      .img-img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .btn-group {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  
+    @media (max-width: 768px) { // Small screens (phones)
+      .btn-group {
+        margin-top: 10px;
+      }
+    }
+  
+    @media (max-width: 576px) { // Extra small screens (phones)
+      .d-flex {
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .img-img {
+        width: 90%;
+        height: auto;
+      }
+  
+      .text-success {
+        font-size: 1.25rem;
+      }
+  
+      h1 {
+        font-size: 1.5rem;
+      }
+  
+      p {
+        font-size: 0.875rem;
+      }
+  
+      .btn-group .btn {
+        width: 100%;
+      }
+    }
+  }
+  
+  .btn-group .btn {
+    border-radius: 6px;
+  }
+  
+  .btn-group .btn-successes {
+    background-color: #96BB7C !important;
+    color: white;
+  }
+  
+  .btn-outline-success {
+    color: #96BB7C;
+    border-color: #96BB7C !important;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #96BB7C;
+    color: white;
+  }
+  
+  .img-img {
+    width: 70%;
+    height: auto; // Ensure image maintains aspect ratio
+  }
+  

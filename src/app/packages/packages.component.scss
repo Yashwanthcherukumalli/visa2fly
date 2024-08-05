@@ -1,0 +1,146 @@
+// // .icon img {
+// //     width: 50px;
+// //     height: 50px;
+// //     background-color: #96BA7B;
+// //   }
+// .container{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// // .org-line{
+// //     background-color: #A01A10;
+// //     width: 80px;
+// //     height: 8px;
+// // }
+// // .org-line-1{
+// //     background-color: #A01A10;
+// //     width: 80px;
+// //     height: 4px;
+// // }
+.w-10{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// // .learn-more {
+// //     display: inline-flex;
+// //     align-items: center;
+// //     font-size: 1rem;
+// //     color: #96BA7B; /* Green color from your palette */
+// //     cursor: pointer;
+// //     transition: transform 0.3s ease;
+  
+// //     .arrow{
+// //       margin-left: 8px; /* Space between text and arrow */
+// //       transition: transform 0.3s ease;
+// //       width: 20px;
+// //       height: auto;
+// //       color: #96BA7B;
+// //     }
+  
+// //     &:hover .arrow {
+// //       transform: translateX(5px); /* Move arrow 5px on hover */
+// //     }
+  
+// //     &:hover {
+// //       transform: translateY(-2px); /* Optional: slight move up effect on hover */
+// //     }
+// //   }
+
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  background-color: #96BA7B;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.org-line {
+  background-color: #A01A10;
+  width: 80px;
+  height: 8px;
+}
+
+.org-line-1 {
+  background-color: #A01A10;
+  width: 80px;
+  height: 4px;
+}
+
+.w-10 {
+  height: 80vh;
+  width: 100%;
+}
+
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #96BA7B; /* Green color from your palette */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  .arrow {
+    margin-left: 8px; /* Space between text and arrow */
+    transition: transform 0.3s ease;
+    width: 20px;
+    height: auto;
+    color: #96BA7B;
+  }
+
+  &:hover .arrow {
+    transform: translateX(5px); /* Move arrow 5px on hover */
+  }
+
+  &:hover {
+    transform: translateY(-2px); /* Optional: slight move up effect on hover */
+  }
+}
+
+.card {
+  width: 100%; /* Default full width */
+}
+
+.card-body {
+  padding: 20px; /* Adjust padding for better spacing */
+}
+
+@media (max-width: 992px) { /* Medium screens (tablets) */
+  .container {
+    flex-direction: column; /* Stack vertically on medium screens */
+    height: auto; /* Remove fixed height for better layout */
+  }
+
+  .learn-more {
+    font-size: 0.9rem; /* Slightly smaller font size on tablets */
+  }
+
+  .card {
+    width: 80%; /* Occupy 80% width on tablets */
+    margin: 10px auto; /* Center the card with margin */
+  }
+}
+
+@media (max-width: 768px) { /* Small screens (phones) */
+  .icon img {
+    width: 40px; /* Smaller icons on small screens */
+    height: 40px;
+  }
+
+  .learn-more {
+    font-size: 0.8rem; /* Smaller font size on small screens */
+  }
+
+  .card {
+    width: 80%; /* Occupy 80% width on phones */
+    margin: 10px auto; /* Center the card with margin */
+  }
+}

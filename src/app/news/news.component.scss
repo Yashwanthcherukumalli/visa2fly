@@ -1,0 +1,57 @@
+.input-group {
+  width: 100%;
+  overflow: hidden;
+}
+
+.input-group .form-control {
+  border-right: none;
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-width {
+  width: 80%;
+}
+
+.container {
+  height: 60vh;
+  width: 100%;
+}
+
+.btn-successes {
+  color: white;
+  font-size: large;
+  background-color: #96ba7b;
+}
+
+.bg-light {
+  background-color: #FDF3F1 !important;
+  height: 80vh;
+  width: 100%;
+}
+
+// .error-message {
+//   color: red;
+//   font-size: 0.875rem;
+//   margin-top: 5px;
+// }
+// .color-white{
+//   color: black;
+//   background-color: red;
+// }
+.error-message {
+  color: red; /* Make sure error message text is visible */
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.color-white {
+  color: black; /* Ensure text color is readable on red background */
+  background-color: red;
+}

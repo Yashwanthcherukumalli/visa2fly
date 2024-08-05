@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <div class="subcomp">
+      <h5 class="text-center green mb-4">Team</h5>
+      <h2 class="text-center">The great quality education</h2>
+      <p class="text-center">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>    
+    </div>
+      <p-carousel 
+          [value]="teamMembers"
+          [numVisible]="4"
+          [circular]="true"
+          [responsiveOptions]="responsiveOptions"
+          [style]="{'width': '100%'}">
+        <ng-template pTemplate="item" let-member>
+          <div class="card text-center">
+            <img [src]="member.image" class="card-img-top" alt="Team Member">
+            <div class="card-body">
+              <h5 class="card-title">{{ member.name }}</h5>
+              <p class="card-text">{{ member.position }}</p>
+              <div>
+                <a [href]="member.facebook" target="_blank">
+                  <img class="icon" [src]="member.facebook" alt="Facebook">
+                </a>
+                <a [href]="member.instagram" target="_blank">
+                  <img class="icon" [src]="member.instagram" alt="Instagram">
+                </a>
+                <a [href]="member.twitter" target="_blank">
+                  <img class="icon" [src]="member.twitter" alt="Twitter">
+                </a>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </p-carousel>
+
+</div>

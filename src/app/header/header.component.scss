@@ -1,0 +1,61 @@
+/* src/app/header/header.component.scss */
+.navbar {
+    background-color: #FDF3F1;
+    padding: 1rem;
+  
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      color: #252B42;
+      font-weight: bold;
+  
+      img {
+        margin-right: 10px;
+      }
+    }
+  
+    .nav-link {
+      color: #57585a;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+  
+      &:hover {
+        color: #0e0e0e;
+      }
+  
+      &.active {
+        color: #121212;
+      }
+    }
+  
+    .d-flex {
+      display: flex;
+      align-items: center;
+  
+      .login {
+        color: #96BA7B;
+        font-weight: 600;
+        margin-right: 1rem;
+
+      }
+  
+      .join-us {
+        background-color: #96BA7B;
+        color: #FFFFFF; // Ensures text color is white for better contrast
+        border: none;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+
+  
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+  .container-fluid {
+    background-color: #FDF3F1;
+    padding: 1rem;
+  }
+  
